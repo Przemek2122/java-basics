@@ -1,5 +1,7 @@
 package pl.edu.wszib.lab1;
 
+import pl.edu.wszib.koktajl.KoktajlTruskawkowy;
+
 public class Application
 {
     public static void main(String[] args)
@@ -18,5 +20,9 @@ public class Application
         MyExtenderClass myExtenderClass = new MyExtenderClass();
 
         myExtenderClass.Abstract();
+
+        KoktajlTruskawkowy koktajlTruskawkowy = new KoktajlTruskawkowy();
+
+        koktajlTruskawkowy.Smak();
     }
 }
